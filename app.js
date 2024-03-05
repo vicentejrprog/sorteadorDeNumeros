@@ -8,7 +8,7 @@ function sortear() {
         return;
     }
     if (quantidade > (ate - de) + 1) {
-        alert(`Campo "quantidade" deve ser inferior a ${ate - de}. Verifique!`)
+        alert(`Campo "quantidade" deve ser inferior a ${(ate - de) + 1}. Verifique!`)
         return;
     }
 
